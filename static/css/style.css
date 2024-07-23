@@ -1,0 +1,79 @@
+html {
+	background-image: url('covid19.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+  }
+  table {
+	margin: 0 auto;
+  }
+  
+  .box {
+	border-radius: 60px;
+	margin: 0;
+	padding: 0;
+	height: 550px;
+	width: 600px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-weight: bold;
+	background-color: rgba(77, 0, 0, 0.76);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  .box h1 {
+	color: rgb(255, 255, 255);
+	font-size: 40pt;
+	font-family: monospace;
+  }
+  
+  form label {
+	color: rgb(255, 255, 255);
+	font-size: 18pt;
+  }
+  
+
+  
+  .box input[type="text"]{
+	border: 0;
+	font-size: 20px;
+	background: none;
+	display: block;
+	margin: 25px auto;
+	text-align: center;
+	border: 2px solid rgb(255, 238, 3);
+	padding: 10px 7px;
+	width: 450px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+  }
+  .box input[type="text"]:focus{
+	border: 2px solid rgb(255, 255, 255);
+  }
+  ::placeholder {
+	color: rgb(197, 197, 197);
+  }
+  
+  .box button {
+	border: 0;
+	color: aliceblue;
+	background-color: rgb(161, 0, 0);
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	padding: 10px 20px;
+	outline: none;
+	font: 14pt bold;
+	border-radius: 24px;
+	cursor: pointer;
+	font-family: monospace;
+	font-weight: bolder;
+  }
+  .box button:hover {
+	color: rgb(255, 238, 3);
+  }
+  

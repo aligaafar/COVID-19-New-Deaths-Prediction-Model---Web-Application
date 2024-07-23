@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>COVID-19 Deaths Forecasting</title>
+    <link rel="stylesheet" href="../static/css/style.css"/>
+  </head>
+  <body>
+    
+
+    
+    <form class="box" action='http://127.0.0.1:5000/' name='name' method="POST">
+      
+      <br>
+      <h1>COVID-19 Deaths Forecasting</h1>
+  <br>
+      <input type="text" name="NOC" placeholder="Enter Number of the predicted new cases" required="required" />
+        <br>
+        <br>
+        <button type="submit" >Predict Number of New Deaths </button>
+        <br>
+       <h2>{{ prediction_text }}</h2> 
+    </form>
+  </body>
+</html>
